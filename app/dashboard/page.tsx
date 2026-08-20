@@ -1,9 +1,8 @@
 import Link from "next/link";
-import styles from "./page.module.css";
  export default function Dashboard() {
   return (
-    <main className="styles.dashboard">
-      <aside className="styles.sidebar">
+    <main className="dashboard">
+      <aside className="sidebar">
         <h1>CarMate</h1>
 
         <nav>
@@ -14,66 +13,66 @@ import styles from "./page.module.css";
           <a href="#">Service History</a>
         </nav>
 
-        <div className="styles.sidebar-bottom">
+        <div className="sidebar-bottom">
           <a href="/login">Logout</a>
         </div>
       </aside>
 
-      <section className="styles.dashboard-content">
-        <header className="styles.dashboard-header">
+      <section className="dashboard-content">
+        <header className="dashboard-header">
           <div>
             
             <h2>Welcome to CarMate</h2>
           </div>
 
-          <div className="styles.profile">
+          <div className="profile">
             <span>TS</span>
           </div>
         </header>
 
-        <section className="styles.welcome-card">
+        <section className="welcome-card">
           <div>
-            <p className="styles.small-text">YOUR CAR</p>
+            <p className="small-text">YOUR CAR</p>
             <h2>Your car hasn't been added yet</h2>
             <p>
               Add your car to start tracking maintenance, services and
               reminders.
             </p>
 
-            <a href="/add-car" className="styles.add-button">
+            <a href="/add-car" className="add-button">
               + Add Your Car
             </a>
           </div>
 
-          <div className="styles.car-placeholder">
+          <div className="car-placeholder">
             
           </div>
         </section>
 
-        <section className="styles.stats">
-          <div className="styles.stat-card">
+        <section className="stats">
+          <div className="stat-card">
             <p>Mileage</p>
             <h3>-- km</h3>
           </div>
 
-          <div className="styles.stat-card">
+          <div className="stat-card">
             <p>Services</p>
             <h3>0</h3>
           </div>
 
-          <div className="styles.stat-card">
+          <div className="stat-card">
             <p>Reminders</p>
             <h3>0</h3>
           </div>
         </section>
 
-        <section className="styles.maintenance-card">
-          <div className="styles.section-heading">
+        <section className="maintenance-card">
+          <div className="section-heading">
             <h2>Upcoming Maintenance</h2>
             <span>View all</span>
           </div>
 
-          <div className="styles.empty-state">
+          <div className="empty-state">
             
             <h3>No maintenance scheduled</h3>
             <p>
