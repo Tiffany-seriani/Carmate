@@ -6,8 +6,8 @@ import Link from "next/link";
     <main className="auth-page">
       <div className="auth-card">
         <div className="auth-header">
-          <h1>Welcome Back</h1>
-          <p>Log in to keep your car care on track.</p>
+          <h1>Welcome Back.</h1>
+          <p>Log in</p>
         </div>
 
         <form className="auth-form">
